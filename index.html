@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="path/to/your/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Christmas History</title>
     <style>
         body {
@@ -98,12 +98,6 @@
             /* Darker shade on button hover */
         }
 
-        video {
-            width: 100%;
-            border: 1px solid #c62828;
-            /* Dark red border color */
-        }
-
         img {
             max-width: 100%;
             height: auto;
@@ -162,15 +156,31 @@
 
         <!-- Media Section -->
         <section id="media">
-            <h2>Images and Video</h2>
+            <h2>Images</h2>
             <p>
-                View images and videos showcasing Christmas celebrations and traditions around the world.
+                View images showcasing Christmas celebrations and traditions around the world.
             </p>
             <!-- Add interactive features -->
             <button onclick="playJingleBells()">Play Jingle Bells</button>
-            <video width="320" height="240" controls>
-                <source src="christmas_video.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-            <img src="christmas_image1.jpg" alt="Christmas Image 1" />
-            <img src="christmas
+            <!-- Provide the correct image sources -->
+            <img src="assets/images/christmas1.jpg" alt="Christmas Image 1" />
+            <img src="assets/images/christmas2.jpg" alt="Christmas Image 2" />
+            <img src="assets/images/christmas_image3.jpg" alt="Christmas Image 3" />
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Christmas History. All rights reserved.</p>
+    </footer>
+
+    <!-- Interactive Features -->
+    <script>
+        function playJingleBells() {
+            var audio = new Audio("assets/audio/jingle_bells.mp3");
+            audio.play();
+        }
+    </script>
+</body>
+
+</html>
