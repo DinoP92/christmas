@@ -2,7 +2,7 @@
 
 Welcome to the Christmas History project! This project showcases the history of Christmas, covering its origins, evolution, and cultural significance. The project includes a timeline, evidence-based information, and images depicting Christmas celebrations around the world.
 
-![Screenshot](https://ibb.co/zr9QnTc)
+![Screenshot](https://i.ibb.co/PNXFmvp/mywebsite-jpg.png)
 
 ## Table of Contents
 
@@ -50,7 +50,7 @@ The project structure is organized as follows:
 No errors were returned when passing through the official WJC validator.
 No errors were found when passing through the official (Jigsaw) validator.
 
-![Screenshot](https://ibb.co/VvXysJT)
+![Screenshot](https://i.ibb.co/mHQs3b4/Screenshot-2023-12-20-092037.png)
 
 ## Bug Fixes
 
